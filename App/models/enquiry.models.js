@@ -13,7 +13,6 @@ let enquirySchema = new Schema({
     phone: {
         type: String,
         required: true,
-        unique: true
     },
     message: {
         type: String,
